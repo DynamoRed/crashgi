@@ -1,0 +1,42 @@
+{
+  "name": "crashgi-v13",
+  "version": "1.0.0",
+  "description": "Test bot for ESGI by DynamoRed. discord.js v13",
+  "main": "main.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "test": "node src/main.js",
+    "dev": "node src/main.js",
+    "production": "node src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "crashgi-v13"
+  },
+  "keywords": [
+    "bot",
+    "esgi"
+  ],
+  "author": "DynamoRed",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.6.0",
+    "@discordjs/rest": "0.1.0-canary.0",
+    "@discordjs/voice": "^0.6.0",
+    "ascii-table": "0.0.9",
+    "colour": "^0.7.1",
+    "discord-api-types": "^0.22.0",
+    "discord-buttons": "^4.0.0",
+    "discord.js": "^13.1.0",
+    "discord.js-search": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "mysql": "^2.18.1",
+    "timers": "^0.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10"
+  }
+}
